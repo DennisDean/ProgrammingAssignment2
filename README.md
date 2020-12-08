@@ -1,3 +1,5 @@
+### Note: See cachematrix.R for functions written to complete assignment
+
 ### Introduction
 
 This second programming assignment will require you to write an R
