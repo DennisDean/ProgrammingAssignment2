@@ -90,6 +90,7 @@ a<-makeCacheMatrix(m1)
 a$getMatrix()
 a$getInverse()
 b<-cacheSolve(a)
+a$getInverse()
 identical(b, m1_inv)
 
 # Test 2: 
@@ -97,6 +98,7 @@ c<-makeCacheMatrix(m2)
 c$getMatrix()
 c$getInverse()
 d<-cacheSolve(c)
+c$getInverse()
 identical(d, m2_inv)
 
 
@@ -105,4 +107,5 @@ e<-makeCacheMatrix(m3)
 e$getMatrix()
 e$getInverse()
 f<-cacheSolve(e)
+e$getInverse()
 identical(f, m3_inv)
